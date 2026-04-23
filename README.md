@@ -1,4 +1,4 @@
-# Liyah-s-API-Project 
+# Aliyah-s-API-Project 
 This project implements a RESTful Smart Campus API using Java, JAX-RS (Jersey), and Grizzly. It manages Rooms, Sensors, and Sensor Readings, simulating a real-world campus monitoring system.
 # Smart Campus REST API
 ##  Overview
@@ -202,4 +202,4 @@ Filters centralize logging logic, avoiding repetition and keeping resource class
 * Built strictly using JAX-RS (no Spring Boot)
 * Designed to follow RESTful principles
 
-## Liyah
+## Aliyah
