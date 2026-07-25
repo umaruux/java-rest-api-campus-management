@@ -2,7 +2,7 @@
 
 A Java-based RESTful API for managing campus rooms, sensors, and sensor readings.
 This project implements a RESTful Smart Campus API using Java, JAX-RS (Jersey), and Grizzly. It manages Rooms, Sensors, and Sensor Readings, simulating a real-world campus monitoring system.
-# Smart Campus REST API
+
 ##  Overview
 
 This project implements a **RESTful Smart Campus API** using Java, JAX-RS (Jersey), and Grizzly.
