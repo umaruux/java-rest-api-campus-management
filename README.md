@@ -83,7 +83,7 @@ Returns API metadata and available endpoints.
 ### Create Room
 
 ```
-curl -X POST http://localhost:8080/api/v2/rooms \
+curl -X POST http://localhost:8080/api/v1/rooms \
 -H "Content-Type: application/json" \
 -d '{"id":"R1","name":"Room1","capacity":50}'
 ```
@@ -91,13 +91,13 @@ curl -X POST http://localhost:8080/api/v2/rooms \
 ### Get Rooms
 
 ```
-curl http://localhost:8080/api/v2/rooms
+curl http://localhost:8080/api/v1/rooms
 ```
 
 ### Create Sensor
 
 ```
-curl -X POST http://localhost:8080/api/v2/sensors \
+curl -X POST http://localhost:8080/api/v1/sensors \
 -H "Content-Type: application/json" \
 -d '{"id":"S1","type":"temperature","status":"ACTIVE","roomId":"R1"}'
 ```
@@ -105,13 +105,13 @@ curl -X POST http://localhost:8080/api/v2/sensors \
 ### Filter Sensors
 
 ```
-curl http://localhost:8080/api/v2/sensors?type=temperature
+curl http://localhost:8080/api/v1/sensors?type=temperature
 ```
 
 ### Add Reading
 
 ```
-curl -X POST http://localhost:8080/api/v2/sensors/S1/readings \
+curl -X POST http://localhost:8080/api/v1/sensors/S1/readings \
 -H "Content-Type: application/json" \
 -d '{"id":"R1","timestamp":1710000000,"value":25.5}'
 ```
